@@ -15,6 +15,16 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDel
     @IBOutlet var signInButton: GIDSignInButton!    
     @IBOutlet var fbLoginButton: FBSDKLoginButton!
     
+    @IBOutlet var SignUp: UIButton!
+    @IBOutlet var forgotPasswordButton: UIButton!
+    
+    @IBAction func signupRegister(sender: AnyObject) {
+    }
+    
+    
+    @IBAction func forgotPassword(sender: AnyObject) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
